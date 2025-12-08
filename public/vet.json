@@ -1,0 +1,38 @@
+[
+  {
+    "vetId": 1,
+    "name": "Dr. Sarah Mitchell",
+    "specialization": "Winter Pet Care & Nutrition",
+    "experience": "12 years",
+    "email": "dr.sarah@warmpaws.com",
+    "phone": "+1 (555) 123-4567",
+    "image": "https://i.ibb.co.com/ynFKHpmp/1a.jpg",
+    "bio": "Specialized in cold weather pet health management and winter nutrition planning for all breeds.",
+    "rating": 4.9,
+    "consultations": 850
+  },
+  {
+    "vetId": 2,
+    "name": "Dr. James Cooper",
+    "specialization": "Cold Weather Injuries & Grooming",
+    "experience": "9 years",
+    "email": "dr.james@warmpaws.com",
+    "phone": "+1 (555) 234-5678",
+    "image": "https://i.ibb.co.com/gLSPz68J/2a.jpg",
+    "bio": "Expert in treating frostbite, paw injuries, and providing winter grooming solutions for pets.",
+    "rating": 4.8,
+    "consultations": 720
+  },
+  {
+    "vetId": 3,
+    "name": "Dr. Emily Rodriguez",
+    "specialization": "Winter Wellness & Preventive Care",
+    "experience": "15 years",
+    "email": "dr.emily@warmpaws.com",
+    "phone": "+1 (555) 345-6789",
+    "image": "https://i.ibb.co.com/R4NkzXv9/3a.jpg",
+    "bio": "Focuses on preventive winter care strategies, immune system support, and seasonal health checkups.",
+    "rating": 5.0,
+    "consultations": 1200
+  }
+]

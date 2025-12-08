@@ -1,0 +1,66 @@
+[
+  {
+    "tipId": 1,
+    "title": "Keep Paws Protected",
+    "icon": "🐾",
+    "description": "Apply paw balm before walks and check for ice buildup between toes. Consider dog booties for extended outdoor time.",
+    "category": "Grooming",
+    "difficulty": "Easy"
+  },
+  {
+    "tipId": 2,
+    "title": "Adjust Exercise Routines",
+    "icon": "🏃",
+    "description": "Shorter, more frequent walks are better in extreme cold. Watch for signs of discomfort like whining or limping.",
+    "category": "Activity",
+    "difficulty": "Easy"
+  },
+  {
+    "tipId": 3,
+    "title": "Maintain Proper Hydration",
+    "icon": "💧",
+    "description": "Pets can get dehydrated in winter too. Keep water bowls filled with fresh, unfrozen water at all times.",
+    "category": "Health",
+    "difficulty": "Easy"
+  },
+  {
+    "tipId": 4,
+    "title": "Winter-Proof Your Home",
+    "icon": "🏠",
+    "description": "Create warm sleeping areas away from drafts. Provide extra blankets and consider heated pet beds for senior pets.",
+    "category": "Comfort",
+    "difficulty": "Medium"
+  },
+  {
+    "tipId": 5,
+    "title": "Boost Nutrition",
+    "icon": "🍖",
+    "description": "Pets may need extra calories in winter to maintain body heat. Consult your vet about adjusting portion sizes.",
+    "category": "Nutrition",
+    "difficulty": "Medium"
+  },
+  {
+    "tipId": 6,
+    "title": "Monitor Coat Health",
+    "icon": "✨",
+    "description": "Don't over-bathe in winter as it can dry out skin. Brush regularly to distribute natural oils and maintain insulation.",
+    "category": "Grooming",
+    "difficulty": "Easy"
+  },
+  {
+    "tipId": 7,
+    "title": "Watch for Antifreeze",
+    "icon": "⚠️",
+    "description": "Antifreeze is toxic and tastes sweet to pets. Clean up spills immediately and store safely out of reach.",
+    "category": "Safety",
+    "difficulty": "Critical"
+  },
+  {
+    "tipId": 8,
+    "title": "Check Heating Sources",
+    "icon": "🔥",
+    "description": "Keep pets away from fireplaces, space heaters, and heating vents to prevent burns. Provide supervised warmth only.",
+    "category": "Safety",
+    "difficulty": "Medium"
+  }
+]
