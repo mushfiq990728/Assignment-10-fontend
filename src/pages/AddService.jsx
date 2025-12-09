@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import axios from "axios";                           // 👈 add this
+import api from "../api/client";
 import { AuthContext } from "../provider/AuthProvider";
 
 const AddService = () => {
@@ -51,17 +51,20 @@ const AddService = () => {
     console.log("Sending to backend:", formData);
 
     try {
-      const res = await axios.post("http://localhost:5000/services", formData); //  single POST
+      const res = await api.post("/services", formData);
       console.log("Response from backend:", res.data);
 
       form.reset();
       setCategory("Pets");
       setPrice(0);
+      // toast.success("Listing added!");
     } catch (err) {
       console.error("Error sending data:", err);
+      // toast.error("Failed to add listing");
     }
   };
 
+  // ✅ these MUST be inside the component, above return
   const handleCategoryChange = (e) => {
     const value = e.target.value;
     setCategory(value);
