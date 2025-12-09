@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import api from "../api/client";
 
 const Services = () => {
+  const [services, setServices] = useState([]);
 
-    const [services, setServices] = useState([]);
-
-    useEffect(() => {
-        fetch('./services.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-            .catch(err => console.log(err))
-    }, [])
+  useEffect(() => {
+    api
+      .get("/services")          
+      .then((res) => setServices(res.data))
+      .catch((err) => console.log(err));
+  }, []);
 
     return (
         <div className='mt-8 px-4 md:px-[145px]'>

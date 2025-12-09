@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
+import api from "../api/client";
 
 const PopulerSection = () => {
-    const [services, setServices] = useState([]);
+  const [services, setServices] = useState([]);
 
-    useEffect(() => {
-        fetch('./services.json')
-            .then(res => res.json())  // Fixed: Added parentheses
-            .then(data => setServices(data))
-            .catch(err => console.log(err))  // Fixed: Corrected console.log
-    }, [])
+  useEffect(() => {
+    api
+      .get("/services", { params: { limit: 6 } }) // GET /services?limit=6
+      .then((res) => setServices(res.data))
+      .catch((err) => console.log(err));
+  }, []);
 
     return (
         <div className='mt-8 px-[145px]'>
